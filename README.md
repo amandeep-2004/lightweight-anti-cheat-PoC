@@ -36,7 +36,7 @@ cd lightweight-anti-cheat-poc
 pip install -r requirements.txt
 python gui.py
 ```
-🚧 Limitations:
+## 🚧 Limitations:
 - Only detects processes by name (e.g., 'cheat', 'trainer', 'injector').
 - Cannot detect kernel-level cheats or name-masquerading processes.
 - Designed as a lightweight proof-of-concept, not a production anti-cheat.
