@@ -1,18 +1,41 @@
-# Lightweight Anti-Cheat PoC (Python)
+# 🛡️ Lightweight Anti-Cheat PoC
 
-This is a simple proof-of-concept anti-cheat tool that scans running processes
-and flags suspicious ones commonly used for cheating (trainers, debuggers, injectors).
+> ⚠️ **Proof of Concept** — For educational and experimental purposes only.  
+> This is *not* production-ready. Use at your own risk.
 
-> For educational purposes only.
+## 🚀 Overview
+This project is a **lightweight, modular anti-cheat proof of concept** designed to demonstrate basic cheat detection mechanisms with minimal system overhead.
 
-## Features
+- ✅ Focus on low performance impact  
+- ✅ Modular design for easy testing  
+- ✅ Simple to integrate with game prototypes  
 
-- Scans active processes
-- Detects known cheat tool names
-- Logs suspicious activity
+## 🎯 Features
+- **Memory Scanner**  
+  Detects known cheat signatures in process memory.
 
-## Requirements
+- **Process Watchdog**  
+  Monitors suspicious third-party processes commonly used in cheating.
+
+- **Basic Integrity Checks**  
+  Verifies critical game files and memory regions haven't been tampered with.
+
+- **Lightweight Footprint**  
+  No kernel drivers, no invasive hooks — pure user-mode PoC.
+
+## 📦 Requirements
+- Windows 10/11 (x64)  
+- .NET 6.0 SDK (for building)  
+- Admin rights (for some detection modules)
+
+## 🛠️ Getting Started
 
 ```bash
-pip install -r requirements.txt
-```
+git clone https://github.com/yourusername/lightweight-anti-cheat-poc.git
+cd lightweight-anti-cheat-poc
+dotnet build
+
+🚧 Limitations:
+- Only detects processes by name (e.g., 'cheat', 'trainer', 'injector').
+- Cannot detect kernel-level cheats or name-masquerading processes.
+- Designed as a lightweight proof-of-concept, not a production anti-cheat.
