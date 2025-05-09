@@ -39,6 +39,12 @@ python gui.py
 ## 📸 Demo
   # Initial Page
    <img src="images/intial_page.png" alt="Login Page" width="600"/>
+
+  # Cheat Detection Process
+   <img src="images/cheat_detect.png" alt="Login Page" width="600"/>
+
+   <img src="images/dummy_cheat.png" alt="Login Page" width="600"/>
+
    
 ## 🚧 Limitations:
 - Only detects processes by name (e.g., 'cheat', 'trainer', 'injector').
