@@ -53,4 +53,5 @@ python gui.py
 - Cannot detect kernel-level cheats or name-masquerading processes.
 - Designed as a lightweight proof-of-concept, not a production anti-cheat.
 
-
+## 🤝 Contributing
+Pull requests are welcome. Open an issue to discuss features or report bugs.
