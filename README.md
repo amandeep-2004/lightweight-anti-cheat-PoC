@@ -36,6 +36,10 @@ cd lightweight-anti-cheat-poc
 pip install -r requirements.txt
 python gui.py
 ```
+## 📸 Demo
+  # Initial Page
+   <img src="images/intial_page.png" alt="Login Page" width="600"/>
+   
 ## 🚧 Limitations:
 - Only detects processes by name (e.g., 'cheat', 'trainer', 'injector').
 - Cannot detect kernel-level cheats or name-masquerading processes.
