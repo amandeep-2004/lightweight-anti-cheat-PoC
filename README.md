@@ -31,11 +31,14 @@ This project is a **lightweight, modular anti-cheat proof of concept** designed 
 ## 🛠️ Getting Started
 
 ```bash
-git clone https://github.com/yourusername/lightweight-anti-cheat-poc.git
+git clone https://github.com/amandeep-2004/lightweight-anti-cheat-poc.git
 cd lightweight-anti-cheat-poc
-dotnet build
-
+pip install -r requirements.txt
+python gui.py
+```
 🚧 Limitations:
 - Only detects processes by name (e.g., 'cheat', 'trainer', 'injector').
 - Cannot detect kernel-level cheats or name-masquerading processes.
 - Designed as a lightweight proof-of-concept, not a production anti-cheat.
+
+
